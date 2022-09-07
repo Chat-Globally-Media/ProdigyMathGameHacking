@@ -31,7 +31,7 @@ toggler.onclick = () => {
 	visible = !visible;
 
 	if (visible) {
-		toggler.innerText = "▼ test";
+		toggler.innerText = "▼";
 		menu.style.top = "-100vh";
 	} else {
 		toggler.innerText = "▲";
@@ -71,7 +71,7 @@ function addArea (title: string) {
 
 const title = document.createElement("h1");
 title.classList.add("menu-title");
-title.innerText = "Prodigy Hacks";
+title.innerText = "Prodigy Hacks test";
 title.style.textAlign = "center";
 menuleft.append(title);
 
